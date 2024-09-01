@@ -1,0 +1,38 @@
+.footer {
+  padding: 100px 0;
+  background-color: $black;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 260px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@mixin footer-xxxxlg-xxxxxlg {
+  .footer {
+    padding: 50px 0;
+    &__inner {
+      &-logo {
+        width: 180px;
+      }
+    }
+  }
+}
+@mixin footer-xsm-sm {
+  .footer {
+    padding: 40px 0;
+    &__inner {
+      &-logo {
+        display: none;
+      }
+    }
+  }
+}

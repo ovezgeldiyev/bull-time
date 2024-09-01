@@ -1,0 +1,41 @@
+.header {
+  padding: 50px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: $black;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@mixin header-xxlg-xxxlg {
+  .header {
+    padding: 30px 0;
+    &__inner {
+      &-logo {
+        width: 160px;
+      }
+    }
+  }
+}
+@mixin header-xsm-sm {
+  .header {
+    &__inner {
+      &-logo {
+        width: 120px;
+      }
+    }
+  }
+}

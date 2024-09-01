@@ -1,0 +1,613 @@
+// // 1680px
+// @include xxxxlg-xxxxxlg {
+//   @include header-xxxxlg-xxxxxlg;
+//   @include footer-xxxxlg-xxxxxlg;
+//   @include newsletter-xxxxlg-xxxxxlg;
+//   @include quote-xxxxlg-xxxxxlg;
+//   @include slider-xxxxlg-xxxxxlg;
+//   .arrow {
+//     width: 50px;
+//     height: 50px;
+//     img {
+//       width: 35px;
+//     }
+//   }
+//   main {
+//     margin-top: 95px;
+//   }
+//   .shape {
+//     height: 250px;
+//   }
+//   h1 {
+//     font-size: 56px;
+//     line-height: 60px;
+//   }
+//   h2 {
+//     font-size: 60px;
+//     line-height: 63px;
+//     &.uniq {
+//       font-size: 56px;
+//       line-height: 60px;
+//     }
+//     small {
+//       font-size: 34px;
+//       line-height: 36px;
+//     }
+//   }
+//   h3 {
+//     font-size: 50px;
+//     line-height: 53px;
+//     &.uniq {
+//       font-size: 56px;
+//       line-height: 60px;
+//     }
+//   }
+//   h4 {
+//     font-size: 34px;
+//     line-height: 38px;
+//   }
+//   h5 {
+//     font-size: 28px;
+//     line-height: 30px;
+//     &.sm {
+//       font-size: 18px;
+//       line-height: 22px;
+//     }
+//   }
+//   h6 {
+//     font-size: 22px;
+//     line-height: 24px;
+//   }
+//   .button {
+//     padding: 20px 28px 16px;
+//     font-size: 24px;
+//     line-height: 30px;
+//     border-radius: 8px;
+//   }
+//   ul {
+//     li {
+//       padding-left: 30px;
+//       font-size: 24px;
+//       line-height: 30px;
+//       &::before {
+//         top: 6px;
+//         width: 16px;
+//         height: 22px;
+//       }
+//     }
+//   }
+//   @include intro-xxxxlg-xxxxxlg;
+//   @include feature-xxxxlg-xxxxxlg;
+//   @include map-xxxxlg-xxxxxlg;
+// }
+// 1340px
+@include xxlg-xxxlg {
+  @include header-xxlg-xxxlg;
+  @include blog-xxlg-xxxlg;
+  @include intro-xxlg-xxxlg;
+  @include reviews-xxlg-xxxlg;
+  @include map-xxlg-xxxlg;
+  @include market-xxlg-xxxlg;
+  @include join-xxlg-xxxlg;
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 48px;
+    &.uniq {
+      font-size: 40px;
+      line-height: 42px;
+    }
+  }
+  h3 {
+    font-size: 36px;
+    line-height: 44px;
+    &.uniq {
+      font-size: 50px;
+      line-height: 58px;
+    }
+    &.ex {
+      font-size: 40px;
+    }
+  }
+  h4 {
+    &.sm {
+      font-size: 30px;
+    }
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 26px;
+    &.big {
+      font-size: 32px;
+    }
+  }
+  p {
+    &.lg {
+      font-size: 28px;
+    }
+    &.big {
+      font-size: 20px;
+    }
+  }
+  ul {
+    li {
+      padding-left: 40px;
+      font-size: 20px;
+      line-height: 40px;
+      &::before {
+        top: 6px;
+        width: 20px;
+        height: 34px;
+      }
+    }
+  }
+  main {
+    margin-top: 109.31px;
+  }
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .shape {
+    height: 150px;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 34px;
+    &.uniq {
+      font-size: 32px;
+      line-height: 33px;
+    }
+    small {
+      font-size: 22px;
+      line-height: 24px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 36px;
+    &.uniq {
+      font-size: 32px;
+      line-height: 38px;
+    }
+    &.ex {
+      font-size: 35px;
+    }
+  }
+  h4 {
+    font-size: 30px;
+    line-height: 34px;
+    &.sm {
+      font-size: 25px;
+    }
+  }
+  h5 {
+    font-size: 19px;
+    line-height: 23px;
+    &.sm {
+      font-size: 18px;
+    }
+    &.big {
+      font-size: 28px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .button {
+    padding: 16px 80px;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 8px;
+    &.uniq {
+      font-size: 25px;
+      line-height: 30px;
+      padding: 12px 20px;
+      border-radius: 15px;
+    }
+  }
+  .auto__container {
+    padding: 0 30px;
+  }
+  ul {
+    li {
+      padding-left: 30px;
+      font-size: 17px;
+      line-height: 34px;
+      &::before {
+        top: 6px;
+        width: 18px;
+        height: 28px;
+      }
+    }
+  }
+  .counter {
+    padding: 16px 16px 10px 16px;
+    border-radius: 10px;
+    max-width: 190px;
+    &__row {
+      margin-bottom: 10px;
+    }
+    &__foot {
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    &Item {
+      font-size: 56px;
+      max-width: 94px;
+    }
+  }
+  @include map-lg-xlg;
+  @include newsletter-lg-xlg;
+  @include quote-lg-xlg;
+  @include slider-lg-xlg;
+  @include market-lg-xlg;
+  @include join-lg-xlg;
+}
+// 840px
+@include md-lg {
+  @include intro-md-lg;
+  @include feature-md-lg;
+  @include blog-md-lg;
+  @include quote-md-lg;
+  @include newsletter-md-lg;
+  @include reviews-md-lg;
+  @include join-md-lg;
+  .arrow {
+    width: 25px;
+    height: 25px;
+    img {
+      width: 16px;
+    }
+  }
+  h1 {
+    justify-content: center;
+    &::before {
+      right: -30px;
+    }
+    &.sm {
+      font-size: 25px;
+    }
+  }
+  h3 {
+    padding: 0;
+    &.ex {
+      font-size: 30px;
+    }
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 25px;
+    &.big {
+      font-size: 24px;
+    }
+  }
+  p {
+    &.lg {
+      font-size: 22px;
+    }
+    &.big {
+      font-size: 18px;
+    }
+  }
+  .shape {
+    height: 120px;
+    &.sm {
+      height: 60px;
+    }
+  }
+}
+// 700px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h1 {
+    &::before {
+      right: -38px;
+    }
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-top: -60px;
+    &.uniq {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    small {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+  h3 {
+    &.ex {
+      font-size: 25px;
+    }
+  }
+  h4 {
+    font-size: 26px;
+    line-height: 31px;
+    &.sm {
+      font-size: 22px;
+    }
+  }
+  .shape {
+    height: 90px;
+    &.sm {
+      height: 38px;
+    }
+  }
+  ul {
+    li {
+      padding-left: 38px;
+      font-size: 15px;
+      line-height: 31px;
+      &::before {
+        top: 6px;
+        width: 20px;
+        height: 30px;
+      }
+    }
+  }
+  .counter {
+    padding: 12px 12px 8px 12px;
+    border-radius: 8px;
+    max-width: 140px;
+    &__row {
+      margin-bottom: 6px;
+    }
+    &__foot {
+      p {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    &Item {
+      width: calc(50% - 4px);
+      font-size: 44px;
+      max-width: 52px;
+      &::before {
+        width: 6px;
+        height: 6px;
+      }
+      &::after {
+        width: 6px;
+        height: 6px;
+      }
+      span {
+        border-radius: 3px;
+      }
+    }
+  }
+  @include intro-sm-md;
+  @include feature-sm-md;
+  @include map-sm-md;
+  @include market-sm-md;
+  @include newsletter-sm-md;
+}
+// 600px
+@include xsm-sm {
+  @include header-xsm-sm;
+  @include footer-xsm-sm;
+  @include intro-xsm-sm;
+  @include newsletter-xsm-sm;
+  @include blog-xsm-sm;
+  @include quote-xsm-sm;
+  @include slider-xsm-sm;
+  @include map-xsm-sm;
+  @include banner-xsm-sm;
+  @include market-xsm-sm;
+  @include reviews-xsm-sm;
+  @include join-xsm-sm;
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 24px;
+    padding: 0;
+    margin-top: 0;
+    &::before {
+      transform: translate(-50%, -50%) skew(0deg, 0deg);
+      width: calc(100% + 76px);
+    }
+    &.large {
+      &::before {
+        width: calc(100% + 32px);
+      }
+    }
+    &.uniq {
+      font-size: 24px;
+      line-height: 27px;
+    }
+    small {
+      font-size: 20px;
+      line-height: 22px;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 23px;
+    &.uniq {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    &.ex {
+      font-size: 20px;
+    }
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 25px;
+    &.sm {
+      font-size: 11px;
+      line-height: 15px;
+    }
+    &.big {
+      font-size: 20px;
+    }
+  }
+  h6 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  p {
+    &.lg {
+      font-size: 18px;
+    }
+    &.big {
+      font-size: 15px;
+    }
+  }
+  .button {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    &.uniq {
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  .title {
+    padding: 0 24px;
+  }
+  .shape {
+    height: 85px;
+  }
+  main {
+    margin-top: 96.98px;
+  }
+}
+// 500px
+@include xsm-sm-extra {
+  h3 {
+    &.ex {
+      font-size: 16px;
+    }
+  }
+  p {
+    &.lg {
+      font-size: 14px;
+      line-height: 185%;
+    }
+    &.big {
+      font-size: 12px;
+      line-height: 19px;
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  @include intro-xsm-sm-extra;
+  @include reviews-xsm-sm-extra;
+}
+// 420px
+@include xxsm-xsm {
+  h1 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 24px;
+    &.uniq {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 26px;
+    &.uniq {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 22px;
+    &.med {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &.reg {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h6 {
+    font-size: 8px;
+    line-height: 18px;
+  }
+  ul {
+    li {
+      font-size: 16px;
+      line-height: 20px;
+      &::before {
+        top: 0;
+      }
+    }
+  }
+  .video,
+  .image {
+    padding-bottom: 65%;
+  }
+  .cookie {
+    width: 290px;
+    padding: 12px;
+    h6 {
+      font-size: 18px;
+    }
+    p,
+    a {
+      font-size: 12px;
+    }
+    button {
+      font-size: 12px;
+    }
+  }
+  @include intro-xxsm-xsm;
+}
+// 385px
+@include xxxsm-xxsm {
+  .auto__container {
+    padding: 0 16px;
+  }
+  h1 {
+    &::before {
+      right: -16px;
+    }
+  }
+  h2 {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    &::before {
+      width: calc(100% + 32px);
+    }
+  }
+  @include blog-xxxsm-xxsm;
+}
